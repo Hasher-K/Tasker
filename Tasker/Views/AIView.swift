@@ -144,7 +144,7 @@ struct Choice: Codable {
 }
 
 class GroqAPI {
-    let apiKey = "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"
+    let apiKey = "API_KEY"
     let model = "llama3-8b-8192"
 
     func extractEntities(from userInput: String, completion: @escaping (Result<String, Error>) -> Void) {
